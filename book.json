@@ -1,8 +1,21 @@
 {
     "title": "精彩无线前端开发手册PC端",
     "description": "精彩无线前端开发手册--PC端",
-    "author": "刘振",
     "language": "zh-hans",
-    "root": "."
-    
+    "author": "刘振",
+    "plugins": [
+        "prism",
+        "-highlight",
+        "prism-themes"
+    ],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-duotone-dark.css"
+            ]
+        }
+    }
 }

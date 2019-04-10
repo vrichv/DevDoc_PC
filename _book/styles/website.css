@@ -1,6 +1,13 @@
-h3 {
-    color: #f00;
+
+.book .book-summary .book-logo {
+    padding: 10px 0;
 }
-h3.green {
-    color: green;
+pre[class*="language-"] {
+    border: none;
+    background-color: #f7f7f7;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.aceCode {
+    font-size: 14px !important;
 }

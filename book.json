@@ -6,7 +6,19 @@
     "plugins": [
         "prism",
         "-highlight",
-        "prism-themes"
+        "prism-themes",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "insert-logo",
+        "chapter-fold",
+        "copy-code-button",
+        "splitter",
+        "toggle-chapters",
+        "ace",
+        "anchors"
     ],
     "styles": {
         "website": "styles/website.css"
@@ -14,8 +26,16 @@
     "pluginsConfig": {
         "prism": {
             "css": [
-                "prism-themes/themes/prism-duotone-dark.css"
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
             ]
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "insert-logo": {
+            "url": "img/logo.png",
+            "style": "max-height: 30px;"
         }
+        
     }
 }

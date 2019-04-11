@@ -11,12 +11,10 @@
         "-search",
         "search-plus",
         "back-to-top-button",
-        "expandable-chapters-small",
+        "expandable-chapters",
         "insert-logo",
         "chapter-fold",
         "copy-code-button",
-        "splitter",
-        "toggle-chapters",
         "ace",
         "anchors"
     ],
@@ -29,11 +27,8 @@
                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
             ]
         },
-        "theme-default": {
-            "showLevel": true
-        },
         "insert-logo": {
-            "url": "img/logo.png",
+            "url": "/img/logo.png",
             "style": "max-height: 30px;"
         }
         

@@ -13,7 +13,7 @@
 为方便此文档的后续人员维护，在此记录所用到的设置和插件。此文档基于**GitBook程序**开发，用的**MarkDown**语法书写。
 
 * book.json文件：[[点击下载]](http://192.168.0.80:81/zentao/file-download-20465.html?zentaosid=hih7j7ccepof1j158g1k5gsi00) 包含基础设置和所用到的插件
-* website.css：[[点击下载]](http://192.168.0.80:81/zentao/file-download-20486.html?zentaosid=70pir8dsskmdaecrcjph96irb6) 自定义了一些gitbook的样式
+* website.css文件：[[点击下载]](http://192.168.0.80:81/zentao/file-download-20486.html?zentaosid=70pir8dsskmdaecrcjph96irb6) 自定义了一些gitbook的样式
 * MarkDown语法：[[在线预览]](http://caibaojian.com/gitbook/format/markdown.html)
 
 安装完GitBook程序后，覆盖目录下的**book.json文件**文件，按以下命令执行即可。
@@ -30,6 +30,10 @@ gitbook serve
 
 ```
 
+### 文档文件路径
+
+
+
 
 ### 相关人员
 
@@ -38,7 +42,7 @@ gitbook serve
 | 项目          | 负责人           | 内容  |
 | ------------- |:-------------:| -----|
 | 此文档维护      | 刘振           | 根据框架的升级、更换来维护此文档 |
-| UI设计规范      | 王帅  刘振      |   设计公司项目的各类UI相关内容 |
+| UI设计规范      | 王帅 王荣 田苗     |   设计公司项目的各类UI相关内容 |
 | 前端开发规范     | 刘振           |   制定、规范前端相关的组件和代码规范 |
 | 公用方法封装     | 刘振 翟金辉     |   封装、优化项目中公用的各类方法和组件 |
 

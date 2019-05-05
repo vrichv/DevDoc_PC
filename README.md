@@ -5,4 +5,4 @@
 
 <p>此文档致力于为精彩无线PC端的产品、项目开发提供统一的标准规范。文档将包含PC端的UI设计规范、前端代码规范、以及项目资源整合等。期待能在多人后续不断完善、维护下成为公司真正的规范文档，</p>
 
-![系统截图](img/system.jpg)
+<img src="img/system.png" style="box-shadow:none">

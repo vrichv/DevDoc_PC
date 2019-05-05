@@ -10,9 +10,10 @@
 * <em>PC端-项目-线形图标库</em>：用于公司所有项目，风格为扁平化的先行图标，效果如图1。
 * <em>PC端-项目-面形图标库</em>：用于公司所有项目，风格为带有底色的面型图标，效果如图2。
 
-![logo](../../img/icon1.jpg "线形图标库") 
-![logo](../../img/icon2.jpg "面形图标库")
-
+<div class="flexcenter">
+    <img src="../../img/icon1.jpg" title="线形图标库"/>
+    <img src="../../img/icon2.jpg" title="面形图标库"/>
+</div>
 
 ### 使用方法
 

@@ -9,8 +9,6 @@
 
 2.所有页面的按钮、组件的class必须一致，每个按钮都有例如常用的增删改查：
 ```html
-<div class="page-listHtml"> // 列表页
-<div class="page-addtHtml"> // 添加页
-<div class="page-viewHtml"> // 查看页
+
 ```
 

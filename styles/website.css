@@ -1,103 +1,131 @@
 @font-face {
-    font-family: 'myFont';
-    src: url('../img/Regular.ttf') format("opentype") ;
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'myFont';
+  src: url('../img/Regular.ttf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 html,
 body,
 p,
 a,
-blockquote, 
-ol, 
-dl, 
-li, 
-table, 
+blockquote,
+ol,
+dl,
+li,
+table,
 td {
-    font-family: 'myFont' !important;
+  font-family: 'myFont' !important;
 }
-h1,h2,h3,h4 {
-    border-bottom: 1px solid #eaecef;
+
+h1,
+h2,
+h3,
+h4 {
+  border-bottom: 1px solid #eaecef;
 }
+
 .markdown-section blockquote,
 .markdown-section dl,
 .markdown-section ol,
 .markdown-section p,
 .markdown-section table,
 .markdown-section ul {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 .book .book-summary .book-logo {
-    padding: 10px 0;
+  padding: 10px 0;
 }
-pre[class*="language-"] {
-    border: none;
-    background-color: #f7f7f7;
-    font-size: 1em;
-    line-height: 1.2em;
-}
+
 .aceCode {
-    font-size: 14px !important;
+  font-size: 14px !important;
 }
+
 .gitbook-link {
-    display: none !important;
+  display: none !important;
 }
+
 .book-summary ul.summary li a,
 .book-summary ul.summary li span {
-    padding: 5px 15px;
+  padding: 5px 15px;
 }
+
 .book .book-summary .exc-trigger {
-    top: 6px;
+  top: 6px;
 }
+
 .book-summary ul.summary li.chapter {
-    padding: 5px 0;
+  padding: 5px 0;
 }
+
 .markdown-section ul li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
+
 .markdown-section b {
-    color: #fff;
-    font-size: 14px;
-    margin: 0 3px;
-    padding: 2px 5px;
-    border-radius: 4px;
-    background: #000;
-    font-weight: normal;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 3px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #000;
+  font-weight: normal;
 }
+
 .markdown-section strong {
-    color: #c7254e;
-    background: transparent;
-    padding: 0;
-    font-size: 16px;
+  color: #c7254e;
+  background: transparent;
+  padding: 0;
+  font-size: 16px;
 }
+
 pre[class*="language-"] {
-    border: none;
-    background-color: #f7f7f7;
-    font-size: 1em;
-    line-height: 1.2em;
-    border-radius: 4px;
-    box-shadow: 0 0 10px #c7c7c7;
-    margin: 20px 0;
+  border: none;
+  background-color: #f6f6f6;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #c7c7c7;
+  margin: 20px 0;
+  color: #000;
 }
+
 .markdown-section em {
-    padding: 2px 4px;
-    color: #c7254e;
-    background-color: #f9f2f4;
-    border-radius: 4px;
-    font-style: normal;
+  padding: 2px 4px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  font-style: normal;
 }
+
 .markdown-section ol,
 .markdown-section ul {
-    margin: 40px 0;
+  margin: 40px 0;
 }
+
 .markdown-section img {
-    display: block;
-    margin: 20px auto;
-    box-shadow: 0 0 10px #000;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #c7c7c7;
+  max-height: 500px;
 }
+
 .flexcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.page-inner {
+  max-width: unset;
+  width: 80%;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #666;
 }

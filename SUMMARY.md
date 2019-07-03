@@ -21,7 +21,7 @@ bui# Summary
 
 - [Part3 组件及方法 API]()
   - [说明](Pages/Part3/shuoming.md)
-  - [【混入】mixins.js](Pages/Part3/hunru.md)
+  - [【混入】mixins.js 混入文件](Pages/Part3/hunru.md)
   - [【公用】publicJS 公用方法文件](Pages/Part3/fun-publicJS.md)
   - [【组件】Table 表格](Pages/Part3/comp-table.md)
   - [【组件】TableTree 表格树](Pages/Part3/comp-tableTree.md)

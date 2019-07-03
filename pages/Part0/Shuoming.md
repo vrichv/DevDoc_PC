@@ -6,8 +6,8 @@
 
 - 开发环境：node8.x 以上；Vue2.0+；Element2.0+
 - 人人开源：[人人开源](https://www.renren.io/guide#fornt '人人开源前端部署')
-- Vue 官网：[Vue2.0+](https://cn.vuejs.org/ 'Vue2.0+')
-- Element：[Element2.7.0](http://element-cn.eleme.io/#/zh-CN/component/installation 'Element')
+- Vue 官网：[Vue-2.5.17](https://cn.vuejs.org/ 'Vue2.0+')
+- Element：[Element-2.9.1](http://element-cn.eleme.io/#/zh-CN/component/installation 'Element')
 - 文档地址：[GitHub](https://github.com/hiwebliu/DevDoc_PC) [内网地址](http://192.168.0.84:4000/)
 
 ### 文档文件说明

@@ -37,7 +37,8 @@ dataModel {
 			prop: 'title', // 对应列内容的字段名
 			sortable: true, // 对应列是否可以排序
 			width: '400', // 对应列的宽度
-			isTip: true // 当内容过长被隐藏时显示 tooltip
+			isTip: true, // 当内容过长被隐藏时显示 tooltip
+			formatter: 'formatterFunName' // 对此栏的值进行格式化，比如性别如果是0和1，可以经过格式化后返回为男和女
 		},
   ],
 
@@ -72,5 +73,9 @@ tableRowClassName ({ row, rowIndex }) {
 	} else if (rowIndex === 3) {
 		return { id: rowIndex, className: 'success-row' }
 	}
-}
+},
+// 格式化性别
+formatSex (val) {
+  return val === '0' ? '男': '女'
+},
 ```

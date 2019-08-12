@@ -14,6 +14,7 @@
 
 ```javascript
 dataModel {
+	multiple:false, // 默认不写此字段为true表格是多选，写上此字段去掉多选
 	addVisible: false, // 此表格的添加页面初始可视化状态
 	addref: 'dataModelAdd', // 此表格的添加页面的ref标识符
 	view: false, // 此表格的添加页面初始可视化状态
